@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basquete liga</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <div>
+    <div class="container">
+      <div class="form-box">
+        <h1>Bem-vindo à Liga!</h1>
+        <p>Preencha sua ficha de incrição para entrar no site</p>
+      </div>
+    </div>
+    <form>
+      <label for="nome">nome completo:</label>
+      <imput type="text" id="nome" name="nome" placeholder="Digite seu nome completo" />
+
+      <label for="apelido">Apelido</label>
+      <imput type="text" id="apelido" name="apelido" placeholder="Como voçê é conhecido?" required />
+
+      <label for="idade">Idade:</label>
+      <imput type="number" id="idade" name="idade" min="10" max="60" required />
+
+      <label for="senha">Senha</label>
+      <imput type="password" id="senha" name="senha" palceholder="Crie uma senha" required />
+
+      <div class="checkbox">
+        <imput type="checkbox" id="lembrar" name="lembrar" />
+        <label for="lembrar">Manter-me conectado</label>
+      </div>
+
+      <buttom type="submit">entrar na liga </buttom>
+    </form>
+  </div>
+  </body>
+
+  </html>
